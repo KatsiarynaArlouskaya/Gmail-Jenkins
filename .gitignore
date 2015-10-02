@@ -1,0 +1,50 @@
+.metadata
+.idea/
+bin/
+tmp/
+test-output/
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.class
+local.properties
+.settings/
+.loadpath
+gradle/
+.gradle/
+build/
+*.iml
+*.log
+*.apk
+gradlew
+gradlew.bat
+.DS_Store
+
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# TeXlipse plugin
+.texlipse
