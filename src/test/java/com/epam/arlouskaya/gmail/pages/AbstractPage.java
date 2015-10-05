@@ -40,7 +40,7 @@ public abstract class AbstractPage {
 	}
 	
 	public void waitForElementIsDisplayed(By locator){
-		Wait wait = new WebDriverWait(driver, 20);
+		Wait wait = new WebDriverWait(driver, 200);
 		wait.until(visibilityOfElement(locator));
 	}
 	
