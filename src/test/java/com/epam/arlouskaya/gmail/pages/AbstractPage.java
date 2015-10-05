@@ -41,6 +41,7 @@ public abstract class AbstractPage {
 	
 	public void waitForElementIsDisplayed(By locator){
 		Wait wait = new WebDriverWait(driver, 200);
+		System.out.println("waiting..."+driver.getCurrentUrl()+ " title="+driver.getTitle());
 		wait.until(visibilityOfElement(locator));
 	}
 	
